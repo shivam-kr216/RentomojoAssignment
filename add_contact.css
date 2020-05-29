@@ -1,0 +1,172 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.container{
+	width: 100%;
+	max-width: 100%;
+	margin: 0 auto;
+}
+
+.header{
+	width: 100%;
+	background-color: #85C1E9;
+	height: 40px;
+	position: relative;
+}
+
+.header h3{
+	transform: translateY(50%);
+}
+
+.feed{
+	width: 90%;
+	height: 600px;
+	margin: 0 auto;
+	position: relative;
+}
+
+.feed form{
+	width: auto;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%, -50%);
+	border: 1px solid black;
+	line-height: 28px;
+	padding: 4px 6px;
+}
+
+form label{
+	font-size: 16px;
+}
+
+form span{
+	font-size: 18px;
+	font-style: bold;
+	float: right;
+}
+
+input{
+	font-size: 18px;
+	padding: 2px;
+}
+
+input[type=date], .full-name, input[type=mail]{
+	width: 300px;
+	height: 25px;
+}
+
+button{
+	text-align: center;
+	border-radius: 4px;
+	font-size: 16px;
+	width: 90px;
+	height: 40px;
+}
+
+button.submit{
+	
+	background-color: green;
+	color: #fff;
+	float: right;
+	border: none;
+	outline: none;
+}
+
+#mobile{
+	width: 90%;
+	height: 25px;
+}
+
+.main{
+	width: 650px;
+	height: auto;
+	position: absolute;
+	left: 50%;
+	top: 30%;
+	transform: translate(-50%, -50%);
+}
+
+.name span{
+
+}
+
+.display{
+	border: 1px solid black;
+	margin: 20px 0;
+}
+
+.search{
+	border: 1px solid #000;
+	overflow: hidden;
+	height: auto;
+	width: 640px;
+	position: relative;
+	padding: 2px;
+}
+
+
+.search input{
+	width: 95%;
+	border: 1px solid black;
+}
+
+.search-icon{
+	background-color: #fff;
+	position: absolute;
+	width: 30px;
+	color: #000;
+	top: 50%;
+	right: 0%;
+	transform: translateY(-50%);
+	border: none;
+	outline: none;
+}
+
+#Add-number span{
+	cursor: pointer;
+}
+
+.name{
+	border: none;
+	outline: none;
+	border-bottom: 1px solid black;
+	cursor: pointer;
+	position: relative;
+}
+
+.hide{
+	position: absolute;
+	display: none;
+	width: 648px;
+	z-index: 10;
+	background-color: #A3E4D7;
+	border: 1px solid black
+}
+
+.edit-remove{
+	text-align: right;
+}
+
+button.edit, button.remove{
+	background-color: #16A085;
+	margin: 5px;
+}
+
+button.edit a, button.remove a{
+	color: #fff;
+	text-decoration: none;
+}
+
+button.remove{
+	background-color: #E74C3C;
+}
+
+.mobile-email{
+	border: 1px solid black;
+	margin: 4px;
+	line-height: 20px;
+}
