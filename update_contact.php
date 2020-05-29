@@ -47,7 +47,7 @@
         <label>DOB</label><br>
         <input type="date" name="date" value= "<?php echo $row['dateofbirth'];?>"><br>
         <label>Mobile Number</label><br>
-        <input type="text" name="phone" id="mobile" class="phone" value= "<?php echo $row['phone'];?>" minlength=10 autocomplete="off"><span>&#8853;</span><br>
+        <input type="text" name="phone" id="mobile" class="phone" value= "<?php echo $row['phone'];?>" minlength=10 maxlength=10 autocomplete="off"><span>&#8853;</span><br>
         <label>Email</label><br>
         <input type="mail" name="mail" id="mail" value= "<?php echo $row['address'];?>" autocomplete="off"><br><br>
         <button name="submit" class="submit">Update</button>
