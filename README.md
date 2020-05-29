@@ -1,4 +1,4 @@
-# SoStronkAssignment
+# Rentomojo Assignment
 <b>Tools:</b><br/>
 <p>Frontend:</p>
 <ol>
