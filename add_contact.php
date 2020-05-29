@@ -38,7 +38,7 @@
 				<label>DOB</label><br>
 				<input type="date" name="date"><br>
 				<div id="Add-number"><label>Mobile Number</label><br>
-				<input type="text" name="phone[]" id="mobile" required minlength=10 autocomplete="off"><span onclick="addInput('Add-number')">&#8853;</span></div>
+				<input type="text" name="phone" id="mobile" required minlength=10 maxlength=10 autocomplete="off"><span onclick="addInput('Add-number')">&#8853;</span></div>
 				<label>Email</label><br>
 				<input type="mail" name="mail" id="mail" required autocomplete="off"><br><br>
 				<button name="submit" class='submit'>Save</button>
@@ -48,7 +48,7 @@
 	<script>
 		function addInput(divName){
     		var newdiv = document.createElement('div');
-		    newdiv.innerHTML = "Mobile Number" + " <br><input type='text' name='phone[]'>";
+		    newdiv.innerHTML = "Mobile Number" + " <br><input type='text' name='phone'>";
 		    document.getElementById(divName).appendChild(newdiv);
     	}
 	</script>
