@@ -1,5 +1,5 @@
 # SoStronkAssignment
-<b>Tools</b><br/>
+<b>Tools:</b><br/>
 <p>Frontend:</p>
 <ol>
   <li>HTML</li>
